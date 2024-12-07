@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
         Go Back to Menu
       </button>
     </div>
-    <div class="flex-1 overflow-y-auto space-y-2 p-1">
+    <div class="flex flex-col flex-1 overflow-y-auto space-y-2 p-1">
       <div
           v-for="msg in messages"
           :key="msg.id"
